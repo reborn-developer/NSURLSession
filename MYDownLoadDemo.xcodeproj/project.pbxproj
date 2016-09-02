@@ -10,11 +10,11 @@
 		B427CC441D6D8D50007335CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B427CC431D6D8D50007335CB /* main.m */; };
 		B427CC471D6D8D50007335CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B427CC461D6D8D50007335CB /* AppDelegate.m */; };
 		B427CC4A1D6D8D50007335CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B427CC491D6D8D50007335CB /* ViewController.m */; };
-		B427CC4D1D6D8D50007335CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B427CC4B1D6D8D50007335CB /* Main.storyboard */; };
 		B427CC4F1D6D8D50007335CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B427CC4E1D6D8D50007335CB /* Assets.xcassets */; };
-		B427CC521D6D8D50007335CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B427CC501D6D8D50007335CB /* LaunchScreen.storyboard */; };
 		B427CC5D1D6D8D50007335CB /* MYDownLoadDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B427CC5C1D6D8D50007335CB /* MYDownLoadDemoTests.m */; };
 		B427CC681D6D8D50007335CB /* MYDownLoadDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B427CC671D6D8D50007335CB /* MYDownLoadDemoUITests.m */; };
+		B427CC771D6D8DD4007335CB /* MYSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B427CC761D6D8DD4007335CB /* MYSessionViewController.m */; };
+		B427CC7A1D6DB0AE007335CB /* MYConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B427CC791D6DB0AE007335CB /* MYConnectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +41,7 @@
 		B427CC461D6D8D50007335CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B427CC481D6D8D50007335CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B427CC491D6D8D50007335CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B427CC4C1D6D8D50007335CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B427CC4E1D6D8D50007335CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B427CC511D6D8D50007335CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B427CC531D6D8D50007335CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B427CC581D6D8D50007335CB /* MYDownLoadDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYDownLoadDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B427CC5C1D6D8D50007335CB /* MYDownLoadDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYDownLoadDemoTests.m; sourceTree = "<group>"; };
@@ -51,6 +49,10 @@
 		B427CC631D6D8D50007335CB /* MYDownLoadDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYDownLoadDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B427CC671D6D8D50007335CB /* MYDownLoadDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYDownLoadDemoUITests.m; sourceTree = "<group>"; };
 		B427CC691D6D8D50007335CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B427CC751D6D8DD4007335CB /* MYSessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYSessionViewController.h; sourceTree = "<group>"; };
+		B427CC761D6D8DD4007335CB /* MYSessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYSessionViewController.m; sourceTree = "<group>"; };
+		B427CC781D6DB0AE007335CB /* MYConnectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYConnectionViewController.h; sourceTree = "<group>"; };
+		B427CC791D6DB0AE007335CB /* MYConnectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYConnectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +107,11 @@
 				B427CC461D6D8D50007335CB /* AppDelegate.m */,
 				B427CC481D6D8D50007335CB /* ViewController.h */,
 				B427CC491D6D8D50007335CB /* ViewController.m */,
-				B427CC4B1D6D8D50007335CB /* Main.storyboard */,
+				B427CC751D6D8DD4007335CB /* MYSessionViewController.h */,
+				B427CC761D6D8DD4007335CB /* MYSessionViewController.m */,
+				B427CC781D6DB0AE007335CB /* MYConnectionViewController.h */,
+				B427CC791D6DB0AE007335CB /* MYConnectionViewController.m */,
 				B427CC4E1D6D8D50007335CB /* Assets.xcassets */,
-				B427CC501D6D8D50007335CB /* LaunchScreen.storyboard */,
 				B427CC531D6D8D50007335CB /* Info.plist */,
 				B427CC421D6D8D50007335CB /* Supporting Files */,
 			);
@@ -243,9 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B427CC521D6D8D50007335CB /* LaunchScreen.storyboard in Resources */,
 				B427CC4F1D6D8D50007335CB /* Assets.xcassets in Resources */,
-				B427CC4D1D6D8D50007335CB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B427CC4A1D6D8D50007335CB /* ViewController.m in Sources */,
+				B427CC771D6D8DD4007335CB /* MYSessionViewController.m in Sources */,
 				B427CC471D6D8D50007335CB /* AppDelegate.m in Sources */,
 				B427CC441D6D8D50007335CB /* main.m in Sources */,
+				B427CC7A1D6DB0AE007335CB /* MYConnectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,25 +310,6 @@
 			targetProxy = B427CC641D6D8D50007335CB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B427CC4B1D6D8D50007335CB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B427CC4C1D6D8D50007335CB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B427CC501D6D8D50007335CB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B427CC511D6D8D50007335CB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B427CC6A1D6D8D50007335CB /* Debug */ = {

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  MYSessionViewController.h
 //  MYDownLoadDemo
 //
 //  Created by reborn on 16/8/24.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface MYSessionViewController : UIViewController
 
 @end
-
